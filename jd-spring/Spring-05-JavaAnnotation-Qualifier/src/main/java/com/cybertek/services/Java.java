@@ -13,7 +13,7 @@ public class Java implements Course {
 //    @Qualifier("officeHours")
     private ExtraSession extraSession;
 
-    // The other ay to qualifier
+    // The other ay to qualifier with constructor
     public Java(@Qualifier("officeHours") ExtraSession extraSession) {
         this.extraSession = extraSession;
     }
