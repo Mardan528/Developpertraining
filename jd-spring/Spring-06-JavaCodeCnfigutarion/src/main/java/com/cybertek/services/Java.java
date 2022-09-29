@@ -16,6 +16,7 @@ public class Java implements Course {
     @Value("${days}")
    private String [] days;
 
+
     @Override
     public String toString() {
         return "Java{" +
