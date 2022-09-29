@@ -25,9 +25,14 @@ public class Java implements Course {
                 '}';
     }
 
+    private OfficeHours officeHours;
+
+    public Java(OfficeHours officeHours) {
+        this.officeHours = officeHours;
+    }
 
     public void getTeachHours() {
 
-        System.out.println(" Weekly teaching hours :"+( 20 ));
+        System.out.println(" Weekly teaching hours :"+( 20 +officeHours.getHours()));
     }
 }
