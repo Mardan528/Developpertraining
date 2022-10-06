@@ -2,7 +2,7 @@ package com.cybertek.services.carpet;
 
 import com.cybertek.enums.City;
 import com.cybertek.interfaces.carpetPrices.Carpet;
-import org.springframework.cglib.beans.BeanMap;
+
 import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;

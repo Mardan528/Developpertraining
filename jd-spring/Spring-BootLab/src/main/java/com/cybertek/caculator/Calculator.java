@@ -12,7 +12,7 @@ import java.math.BigDecimal;
 @Component
 public class Calculator {
 
-    @Qualifier("carpetVA")
+    @Qualifier("carpetTX")
     @Autowired
     private Carpet carpet;
 

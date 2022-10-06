@@ -15,7 +15,7 @@ public class CybetekApplicationLab {
 
         Calculator calculator=container.getBean("calculator",Calculator.class);
 
-        System.out.println(calculator.getTotalCarpetCost(City.ARLINGTON));
+        System.out.println(calculator.getTotalCarpetCost(City.DULLES));
 
     }
 }

@@ -8,9 +8,9 @@ import java.math.BigDecimal;
 @Component
 public class LivingRoom implements Floor {
 
-    @Value("${width}")
+    @Value("${width$")
     BigDecimal width;
-    @Value("${length}")
+    @Value("${length")
     BigDecimal length;
 
 
